@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electric Vehicles</title>
+
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            background-color:blanchedalmond;
+        }
+
+        header {
+            color:white;
+            text-align: center;
+            padding: 50px;
+            background-color:black;
+        }
+
+        /* header h1{
+            background-color: black;
+        } */
+
+        .header img{
+            float: top;
+            width: 50px;
+            height: 50px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+         h3{
+            font-size: 25px
+         }
+         h2{
+            font-size: 30px
+         }
+
+         .Aboutus {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+         }
+         
+         
+         
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section center p{
+            text-align: center;
+        }
+
+        .im {
+            width: 90%;
+            max-width: 700px;
+            display: block;
+            margin: 20px auto 0;
+        }
+        /* section p{
+            font-size: 20;
+        } */
+
+        /* Add more styles for your content, images, and other elements here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b><I>Electric Vehicles</I></b></h1>
+    </header>
+
+    
+    <nav>
+        <a href="#About">Introduction</a>
+        <a href="#Models">Models</a>
+        <a href="#Development">Development</a>
+        <a href="#Charging">Charging</a>
+        <a href="#About us">About us</a>
+        
+    </nav>
+    <div class="vector-header-end">
+			
+        <div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+            <a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+        
+            </a>
+            <div class="vector-typeahead-search-container" style="text-align: right">
+                <div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+                    <form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+                        <div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+                            <div class="cdx-text-input cdx-text-input--has-start-icon">
+                                <input
+                                    class="cdx-text-input__input"
+                                     type="search" name="search" placeholder="Search" aria-label="Search" autocapitalize="sentences" title="Search[f]" accesskey="f" id="searchInput"
+                                    >
+                                <span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+                            </div>
+                            <input type="hidden" name="title" value="Special:Search">
+                        </div>
+                        <button class="cdx-button cdx-search-input__end-button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <img src="https://images.squarespace-cdn.com/content/v1/5d875ec6f4f6d6779d29c5d5/d55ee571-d619-45a1-9673-e7095c4582dc/EV+4.jpeg?format=1500w" alt="Diagram of an electric vehicle" class="im">
+
+    <section id="about">
+        <h3>About Electric Vehicles</h3>
+        <p>Today when the world is thriving to use day by day new technology everywhere, Electric Vehicles must be the future means of transport. Pollution, growing demand for fuel, Global Warming, promoting eco-friendly means of transport are some of the reasons for promoting electric vehicles. Electric Vehicles are means of transport that consume eclectic energy as fuel instead of traditional fuels such as petrol, diesel, and CNG. These vehicles may be powered through a collector system by electricity from off-vehicle sources or maybe inbuilt with a battery, solar panels, fuel cells, or an electric generator to convert fuel to electricity. Electric bikes, electric cars, electric rickshaws, etc are some examples of electric vehicles. Most of the trains including metros are already running worldwide through electricity.</p>
+    </section>
+
+    <section id="models">
+        <h3>Electric Vehicle Models</h3>
+        <p>Currently, there are 12 electric cars on sale in India. Of these, the MG Comet EV is the cheapest EV while the BMW i7 is the most expensive electric car in India. Upcoming electric cars in India include Ford Mustang Mach E,Fisker Ocean and Tata Punch EV among others.
+            Electric Cars Price List 2023
+MODEL	EX-SHOWROOM PRICE:
+<ol>
+<li>Tata Tiago EV	Rs. 8.69 - 12.04 Lakh</li> 
+<li>Kia EV6	Rs. 60.95 - 65.95 Lakh</li> 
+<li>Tata Nexon EV	Rs. 14.74 - 19.94 Lakh</li>
+<li>MG Comet EV	Rs. 7.98 - 9.98 Lakh</li> 
+<li>Mahindra XUV400 EV	Rs. 15.99 - 19.39 Lakh</li>
+</ol>
+        </p>
+    </section>
+    <img src="https://ahssinsights.org/wp-content/uploads/2019/12/Vol14_Fig1_BNEF_2017-04_AT_Electric-Car-Boom.png" class="im">
+    <section id="Development">
+        <h2>Development about electronic vechiles in today generation</h2>
+        <p>In recent years, as a new means of transportation, electric vehicles (EVs) have been more highly valued by the international market because of their advantages of energy saving and emission reduction. This article analyzes electric vehicles development trends, including the use of renewable energy as a charging resource. It also includes discussion of a demonstration project of how EVs provide backup capacity to suppress load fluctuation. Worldwide about 370 electric car models were available in 2020, a 40% increase from 2019. China has the widest offering, reflecting its less consolidated automotive sector and that it is the world's largest EV market, But in 2020 the biggest increase in number of models was in Europe where it more than doubled.</p>
+        <p>EVs using power from clean energy sources can reduce CO2 emissions. However, if the original source of that power is fossil-based, the CO2 emissions will increase due to the batteries poor net efficiency. EVs therefore should use renewable energy for charging. If EVs communicate with the power grid to reflect the prosumer response by charging from the grid or discharging to the grid, vehicle-to-grid (V2G) technology seems to be more important.
+            Existing EVs can mainly be divided into three types: battery electric vehicles (BEV), hybrid electric vehicles (HEV) and fuel cell electric vehicles (FCEV). BEV and Plug-in HEV are directly connected to the power grid. At any given time, 95 percent of cars are parked, so batteries in EVs could be used to return electricity to the grid or draw the electricity from the grid for peak load shifting. EVs can respond to prosumers of distribution system operators (DSO) or provide ancillary services for transmission system operators (TSO).
+        </p>
+        <h3>Vehicles Types</h3>
+        <p><b>Ground Vehicles</b></p>
+        <p>(Or)</p>
+        <p><b>Pure Vehicles</b></p>
+        <img src="https://cdni.autocarindia.com/ExtraImages/20220512015519_Tata%20Nexon%20EV.jpg" class="im">
+        <p>A pure-electric vehicle or all-electric vehicle is powered exclusively through electric motors. The electricity may come from a battery (battery electric vehicle), solar panel (solar vehicle) or fuel cell (fuel cell vehicle).</p>
+        <p><b>Hybrid EVs</b></p>
+        <img src="https://www.servotech.in/blog/wp-content/uploads/2023/09/Honda-City-EHEV-2.png" class="im">
+                <p id="center"><b>Honda City Ehev Hybrid car </b></p>
+        <p>A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain). The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance. There is a variety of HEV types and the degree to which each function as an electric vehicle (EV) also varies. The most common form of HEV is the hybrid electric car, although hybrid electric trucks (pickups and tractors), buses, boats and aircraft also exist.</p>
+        <p>Modern HEVs make use of efficiency-improving technologies such as regenerative brakes which convert the vehicle's kinetic energy to electric energy, which is stored in a battery or supercapacitor. Some varieties of HEV use an internal combustion engine to turn an electrical generator, which either recharges the vehicle's batteries or directly powers its electric drive motors; this combination is known as a motor–generator.[51] Many HEVs reduce idle emissions by shutting down the engine at idle and restarting it when needed; this is known as a start-stop system. A hybrid-electric produces lower tailpipe emissions than a comparably sized gasoline car since the hybrid's gasoline engine is usually smaller than that of a gasoline-powered vehicle. If the engine is not used to drive the car directly, it can be geared to run at maximum efficiency, further improving fuel economy.
+            There are different ways that a hybrid electric vehicle can combine the power from an electric motor and the internal combustion engine. The most common type is a parallel hybrid that connects the engine and the electric motor to the wheels through mechanical coupling. In this scenario, the electric motor and the engine can drive the wheels directly. Series hybrids only use the electric motor to drive the wheels and can often be referred to as extended-range electric vehicles (EREVs) or range-extended electric vehicles (REEVs). There are also series-parallel hybrids where the vehicle can be powered by the engine working alone, the electric motor on its own, or by both working together; this is designed so that the engine can run at its optimum range as often as possible.</p>
+        <p><b>Plug-in electric vehicle</b></p>
+        <img src="https://afdc.energy.gov/vite/assets/plugin.b98fca6b.jpg" class="im">
+        <p>A plug-in electric vehicle (PEV) is any motor vehicle that can be recharged from any external source of electricity, such as wall sockets, and the electricity stored in the Rechargeable battery packs drives or contributes to drive the wheels. PEV is a subcategory of electric vehicles that includes battery electric vehicles (BEVs), plug-in hybrid vehicles, (PHEVs), and electric vehicle conversions of hybrid electric vehicles and conventional internal combustion engine vehicles</p>
+        <p><b>Range-extended electric vehicle</b></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Acp_tzero_DSC00467.jpg" class="im">
+        <p>A range-extended electric vehicle (REEV) is a vehicle powered by an electric motor and a plug-in battery. An auxiliary combustion engine is used only to supplement battery charging and not as the primary source of power.</p>
+        <p><b>On- and off-road EVs</b></p>
+        <img src="https://i0.wp.com/technode.com/wp-content/uploads/2023/01/byd-u8-suv-1.jpg?fit=1200%2C675&ssl=1" class="im">
+        <p>On-road electric vehicles include electric cars, electric trolleybuses, electric buses, battery electric buses, electric trucks, electric bicycles, electric motorcycles and scooters, personal transporters, neighborhood electric vehicles, golf carts, milk floats, and forklifts. Off-road vehicles include electrified all-terrain vehicles and tractors.</p>
+        <p><b>Railborne EVs</b></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ULF_B.jpg/200px-ULF_B.jpg" class="im">
+        <p>The fixed nature of a rail line makes it relatively easy to power EVs through permanent overhead lines or electrified third rails, eliminating the need for heavy onboard batteries. Electric locomotives, electric multiple units, electric trams (also called streetcars or trolleys), electric light rail systems, and electric rapid transit are all in common use today, especially in Europe and Asia.
+
+            Since electric trains do not need to carry a heavy internal combustion engine or large batteries, they can have very good power-to-weight ratios. This allows high speed trains such as France's double-deck TGVs to operate at speeds of 320 km/h (200 mph) or higher, and electric locomotives to have a much higher power output than diesel locomotives. In addition, they have higher short-term surge power for fast acceleration, and using regenerative brakes can put braking power back into the electrical grid rather than wasting it.
+            
+            Maglev trains are also nearly always EVs.
+            
+            There are also battery electric passenger trains operating on non-electrified rail lines.</p>
+        <p><b>Seaborne EVs</b></p>
+        <img src="https://imgd.aeplcdn.com/1920x1080//n/cw/ec/107278/infographics0.png?isig=1&q=75" class="im">
+        <p>Electric boats were popular around the turn of the 20th century. Interest in quiet and potentially renewable marine transportation has steadily increased since the late 20th century, as solar cells have given motorboats the infinite range of sailboats. Electric motors can and have also been used in sailboats instead of traditional diesel engines.[62] Electric ferries operate routinely.[63] Submarines use batteries (charged by diesel or gasoline engines at the surface), nuclear power, fuel cells[64] or Stirling engines to run electric motor-driven propellers.</p>
+        <p><b>Airborne EVs</b></p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPMYwBqtJ1KxhRbDeFs2wsOuK0YSNXziwUAlv2Qy0JLLW3RjZ_pcdWU0LTyPr3ryZKjU&usqp=CAU" class="im">
+        <p>Since the beginnings of aviation, electric power for aircraft has received a great deal of experimentation. Currently, flying electric aircraft include piloted and unpiloted aerial vehicles</p>
+
+    </section>
+    
+
+    <section id="Charging">
+        <h3>Charging Stations</h3>
+        <p>Consumers and fleets considering electric vehicles (EVs)—which include all-electric vehicles and plug-in hybrid electric vehicles (PHEVs)—need access to charging stations. For most drivers, this starts with charging at home or at fleet facilities. Charging stations at workplaces and public destinations may help bolster market acceptance by offering more flexible charging opportunities at commonly visited locations. Community leaders can find out more through EV readiness planning, including case studies of ongoing successes. The EVI-Pro Lite tool is also available to estimate the quantity and type of charging infrastructure necessary to support regional adoption of EVs by state or city/urban area and to determine how EV charging will impact electricity demand.
+            
+            Charging the growing number of EVs in use requires a robust network of stations for both consumers and fleets. The Alternative Fueling Station Locator allows users to search for public and private charging stations. Quarterly reports on EV charging station trends show the growth of public and private charging and assess the current state of charging infrastructure in the United States.
+            </p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU70A4mGdy7kLyxivuhD5S6mlhyGzNyZ3NHA&usqp=CAU" class="im">
+      <h3>Charging Infrastructure Terminology</h3>
+      <p>The charging infrastructure industry has aligned with a common standard called the Open Charge Point Interface (OCPI) protocol with this hierarchy for charging stations: location, EV charging port, and connector. The Alternative Fuels Data Center and the Station Locator use the following charging infrastructure definitions:</p>
+      <p><ul>
+      <li>Station Location:<p> A station location is a site with one or more EV charging ports at the same address. Examples include a parking garage or a mall parking lot.</p></li>
+      <li>EV charging Port:<p>An EV charging port provides power to charge only one vehicle at a time even though it may have multiple connectors. The unit that houses EV charging ports is sometimes called a charging post, which can have one or more EV charging ports. EV charging ports are also sometimes referred to as electric vehicle supply equipment (EVSE) ports.</p></li>
+      <li>Connector:<p> A connector is what is plugged into a vehicle to charge it. Multiple connectors and connector types (such as CHAdeMO and CCS) can be available on one EV charging port, but only one vehicle will charge at a time. Connectors are sometimes called plugs.
+    </p></li>
+      </ul></p>
+      <img src="https://afdc.energy.gov/assets/images/fuels/charging-infrastructure-terms-40dec36d.jpg" alt="Diagram of an electric vehicle" class="im">
+        
+      
+      <h3><b>EV Market 2022-2030:</b></h3>
+      <img src="https://www.grandviewresearch.com/static/img/research/india-electric-vehicle-market-size.png" class="im">
+        <p>The global electric vehicle market was valued at $163.01 billion in 2020, and is projected to reach $823.75 billion by 2030, registering a CAGR of 18.2% from 2021 to 2030.
+                  <p>The COVID-19 pandemic has had an adverse effect on the overall automotive industry and thereby electric vehicle industry as well. As per the data released by Society of Electric Vehicle Manufacturers (SMEV), new EV registration of all types of electric vehicles during FY21 dropped by 20 percent compared with the number of new EV registrations in FY20. In addition, amid pandemic many different players are trying to devise different approaches in order to keep up with the condition by using electric vehicles for medical supplies as it provides affordable transportation with excellent maneuverability. For instance, Omega Seiki Mobility recently launched Rage+frost, a refrigerated load carrier three-wheeler, which is specifically designed for vaccine, pharmaceutical, and food delivery in these hard times
+                        <p>Asia-Pacific held the largest market share of the global electric vehicle industry in 2020. Higher adoption rates of smart mobility services, government regulations, increase in fuel prices, and rise in trend toward adopting non-fossil fuel-based vehicles boost growth of electric vehicles in developing countries such as India, China, and Indonesia, which create lucrative opportunities for the market in this region. Increase in vehicle population and rise in vehicle standards fuel growth of Asia-Pacific. Moreover, various  technological advancements related to electric vehicles are taking place, owing to government initiatives, which further propels the market growth.</p>
+                   <p> In addition, countries such as China, India, Australia, and Japan are mainly focusing on environmental awareness and new technologies, which drive growth of high-performance electric vehicles. Moreover, factors such as a significant rise in income levels & an increase in urbanization in emerging countries of Asia-Pacific are reliable engines of growth for the electric vehicle market. In addition, emission regulation & the subsidies for hybrid & electric vehicles in the Asia-Pacific region helped achieve a considerable portion of the overall EV market in Asia-Pacific. Passenger electric vehicles are gaining popularity among consumers by proactive participation of automotive OEMs. According to the IEA Global EV Outlook report, General Motors, Volkswagen, and others are intensifying their efforts in China & will be the leader in the 2030 market with holding shares of around 57%.</p>
+                   <p>Currently, China is the leader in electric vehicle manufacturing and related infrastructures & technologies. The government of China has been implementing strict emission control rules to boost passenger and commercial electric vehicles on roads, therefore, it is expected to fuel demand for electric vehicles in China.
+
+                    Norway is one of the fastest growing market for electric vehicles in Europe. Significant increasing adoption of electric vehicles in Norway owing to the environmental and growing fuel prices concern primarily driving the growth of EV market in country. For instance, according to report by CleanTechnica, plugin EV market share in October 2021 is at 89.3%, up from 79.1% in 2020. Also, according to Norwegian Road Foundation (OFV), overall new sales in Norway rose by 25% in 2021 to a record 176,276 cars, of which 65% were fully electric. This market share was up from 54% in 2020. Norway’s parliament has set a non-binding goal that by 2025 all the cars sold need to be zero emissions. This in turn, driving the growth of electric vehicle market in Norway.
+                    
+                    Companies have adopted product development and product launch as their key development strategies in the electric vehicle market. The key players operating in this market are Ampere Vehicles, Benling India Energy and Technology Pvt Ltd, BMW AG, BYD Company Limited, Chevrolet Motor Company, Daimler AG, Energica Motor Company S.p.A., Ford Motor Company, General Motors, Hero Electric, Hyundai Motor Company, Karma Automotive, Kia Corporation, Lucid Group, Inc., Mahindra Electric Mobility Limited, NIO, Nissan Motors Co., Ltd., Okinawa Autotech Pvt. Ltd., Rivain, Tata Motors, Tesla, Inc., Toyota Motor Corporation, Volkswagen AG, WM Motor, and Xiaopeng Motors.</p>
+                    <img src="https://mma.prnewswire.com/media/1549812/Technavio_market_research_report_Electric_Vehicle_Market.jpg?p=facebook" class="im">
+                    <h3><b>Key Developments:</b></h3>
+                    <img src="https://www.iasys.co.in/wp-content/uploads/2022/06/blog_12-02-1024x945.jpg" class="im">
+                        <ul>
+                            <li> In November 2021, Hyundai Motor Company revealed SEVEN, the sport utility electric vehicle (SUEV) concept at Automobility LA, which is built upon Hyundai Motor Group’s Electric-Global Modular Platform (E-GMP) with premium lounge-experience that provides greater freedom & comfort for passengers.</p></li>
+                            <li> In December 2021, General Motors announced expanding of GM’s technology platforms to provide EV technology beyond its own portfolio & applications to meet the broad range of commercial customers & organizations.</p></li>
+                            <li> In September 2021, Mitsubishi Fuso Truck, a subsidiary of Daimler AG, signed an agreement with Bus Corporation MFTBC, to deliver 20 units of the all-electric eCanter truck to Australia Post fleet. The eCanter trucks will run in major cities across Australia to support parcel deliveries.</p></li>
+                            <li> In April 2020, BYD Company Limited and Toyota Motor Corporation formed a joint venture to conduct R&D of battery electric vehicles (BEVs). The name of the new company is BYD TOYOTA EV TECHNOLOGY CO., LTD. (BTET). BYD and Toyota will work together to meet the diverse needs of customers by researching and developing BEVs that appeal to customers and promoting their widespread adoption.</p></li>
+
+                        </ul>
+                    
+        </p>
+        </p>
+    <h3>Records:</h3>
+    <ul>
+        <li>Rimac Nevera, an electric hypercar, sets 23 world speed records in one day.</li>
+        <li>Fastest acceleration of an electric car, 0 to 100 km/h in 1.461 seconds by university students at the University of Stuttgart</li>
+        <li>Electric Land Speed Record 353 mph (568 km/h).</li>
+        <li>Electric Car Distance Record 1,725 miles (2,776 km) in 24 hours by Bjørn Nyland.</li>
+        <li>Greatest distance by electric vehicle, single charge 999.5 miles (1,608.5 km).</li>
+        <li>Solar-powered EV is fastest EV to go over 1,000 km without stopping to recharge, the Sunswift 7.</li>
+        <li>Electric Motorcycle: 1,070 miles (1,720 km) under 24 hours. Michel von Tell on a Harley LiveWire.</li>
+        <li>Electric flight: 439.5 miles (707.3 km) without charge.</li>
+    </ul>
+    <h3>Infrastructure Management</h3>
+    <p>With the increase in number of electric vehicles, it is necessary to create an appropriate number of charging stations to supply the increasing demand,[167] and a proper management system that coordinates the charging turn of each vehicle to avoid having some charging stations overloaded with vehicles and others empty.</p>
+    <p><b>Stabilization of the Grid</b></p>
+    <p>Since EVs can be plugged into the electric grid when not in use, battery-powered vehicles could reduce the need for dispatchable generation by feeding electricity into the grid from their batteries during periods of high demand and low supply (such as just after sunset) while doing most of their charging at night or midday, when there is unused generating capacity.[169][170] This vehicle-to-grid (V2G) connection has the potential to reduce the need for new power plants, as long as vehicle owners do not mind reducing the life of their batteries, by being drained by the power company during peak demand. Electric vehicle parking lots can provide demand response.[171]
+
+        Furthermore, current electricity infrastructure may need to cope with increasing shares of variable-output power sources such as wind and solar. This variability could be addressed by adjusting the speed at which EV batteries are charged, or possibly even discharged.[172]
+        
+        Some concepts see battery exchanges and battery charging stations, much like gas/petrol stations today. These will require enormous storage and charging potentials, which could be manipulated to vary the rate of charging, and to output power during shortage periods, much as diesel generators are used for short periods to stabilize some national grids.</p>
+    <p><b>Repair Shops</b></p>
+    <p>The infrastructure for vehicle repairs after accidents is a concern for insurers and mechanics due to safety requirements.[175] Batteries and other components must be carefully evaluated rather than being totally written off by insurers.</p>
+<p>An electric car needs to be serviced as often as any car. The service will include:</p>
+<ul>
+    <li>Tyre wear and tear & tyre pressure check.</li>
+    <li>Windscreen wiper replacement.</li>
+    <li>Brake fluid change.</li>
+    <li>MOT but with no emissions test and with fewer parts to test, repairs could be minimal.</li>
+</ul>
+</section>
+<section style="background-color: black;">
+<div class="About us" id="section">
+   
+    <h3><u style="color: white;">About Us</u></h3>
+    <p style="font-family: justify-self start; color: white;">We share a passion for EVs and their ability to make life easier and more sustainable.  EVs offer unmatched energy efficiency, operating cost and cleanness. We believe in their potential to make automobiles the most entertaining, comfortable, purposeful and affordable we ever had.We provide authoritative analysis, data, policy recommendations and solutions to ensure energy security and help the world transition to clean energy. We’ve carried out research around the world on energy statistics, modelling, technology, energy efficiency and renewable policies.</p>
+    <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;">Our main motive is to drive people awareness towards Electronic vehicles instead of fuels vehicles.</p>
+    
+  </div>
+  
+  <h2 style="text-align:center";><b><u style="color: white;">Our Team</u></b></h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        
+        <div class="container">
+          <h3 style="color: white;">Shubham Gupta</h3>
+          <p class="title" style="color: white;">Web designer</p>
+          <p style="color: white;">A well-motivated Student levelling up my education game. Currently, I have been pursuing B-Tech from Lovely Professional University.
+          
+          <p><a href="mailto:aarushjais407@gmail.com">Send Email</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        
+        <div class="container">
+          <h3 style="color: white;">Arjit Raj</h3>
+          <p class="title" style="color: white;">Report Writer</p>
+          <p style="color: white;"> An inspired Student pursuing my career in the tech field from Lovely Professional University.</p>
+          <p><a href="mailto:arjitraj00@gmail.com">Send Email</a></p>
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        
+        <div class="container">
+          <h3 style="color: white;">Tanish Sood</h3>
+          <p class="title" style="color: white;">Helper</p>
+          <p style="color: white;">A commited Student pursuing my studies in the tech field from Lovely Professional University.</p>
+          <p><a href="mailto:tanishsood21@gmail.com">Send Email</a></p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        
+    
+    <!-- Add more sections and content as needed -->
+
+</body>
+
+
+
+</html>
